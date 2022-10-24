@@ -105,7 +105,11 @@ import AddToCalendarButton from 'add-to-calendar-button-vue';
 
 Use the componet inside your code and declare any options as attributes.
 ```
-<AddToCalendarButton name="Test-Event" startDate="2023-05-22" :options="['Apple','Google','Yahoo','iCal']"></AddToCalendarButton>
+<AddToCalendarButton 
+  name="Test-Event" 
+  startDate="2023-05-22" 
+  :options="['Apple','Google','Yahoo','iCal']"
+></AddToCalendarButton>
 ```
 
 Mind that for images, options, and customLabels, you would need to add ":" before the props name (v-bind). Otherwise, Vue would not recognize them as Arrays and Objects, but Strings (see [Vue Documentation](https://vuejs.org/guide/components/props.html#props-declaration) for details).
