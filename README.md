@@ -105,19 +105,19 @@ import AddToCalendarButton from 'add-to-calendar-button-vue';
 
 Use the componet inside your code and declare any options as attributes.
 ```
-<AddToCalendarButton 
+<add-to-calendar-button 
   name="Test-Event" 
   startDate="2023-05-22" 
   :options="['Apple','Google','Yahoo','iCal']"
-></AddToCalendarButton>
+></add-to-calendar-button>
 ```
 
 Mind that for images, options, and customLabels, you would need to add ":" before the props name (v-bind). Otherwise, Vue would not recognize them as Arrays and Objects, but Strings (see [Vue Documentation](https://vuejs.org/guide/components/props.html#props-declaration) for details).
 
-<!--If you want to not pass the props via the component element, you can also simply fall back to the JSON style of main Add to Calendar Button script. Keep on including the Vue component, but instead of using `<AddToCalendarButton></AddToCalendarButton>`, you use the following syntax:
+<!--If you want to not pass the props via the component element, you can also simply fall back to the JSON style of main Add to Calendar Button script. Keep on including the Vue component, but instead of using `<add-to-calendar-button></add-to-calendar-button>`, you use the following syntax:
 
 ```
-<AddToCalendarButton>
+<add-to-calendar-button>
   {
     "name":"Add the title of your event",
     "startDate":"2023-05-22",
@@ -128,7 +128,7 @@ Mind that for images, options, and customLabels, you would need to add ":" befor
       "iCal"
     ]
   }
-</AddToCalendarButton>
+</add-to-calendar-button>
 ```-->
 
 <br /><br />
@@ -145,6 +145,7 @@ Find all information about the available parameters and how to configure specifi
 
 ## ⚡ Changelog
 
+- v1.1 : changing component name
 - v1.0 : initial release
 
 Mind that this is only referring to this wrapper repository and does not list any patches!

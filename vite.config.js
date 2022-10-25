@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'src/components/AddToCalendarButtonComponent.vue'),
-      name: 'AddToCalendarButton',
+      name: 'add-to-calendar-button',
       fileName: 'atcb'
     },
     rollupOptions: {

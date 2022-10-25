@@ -1858,7 +1858,7 @@ function Ln() {
 }
 let L = [];
 const Rn = {
-  name: "AddToCalendarButton",
+  name: "add-to-calendar-button",
   props: {
     proKey: String,
     name: String,
