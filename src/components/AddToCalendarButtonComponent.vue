@@ -8,7 +8,7 @@
 <script lang="ts">
   let initializedButtons: string[] = [];
   export default {
-    name: "AddToCalendarButton",
+    name: "add-to-calendar-button",
     props: {
       proKey: String,
       name: String,
