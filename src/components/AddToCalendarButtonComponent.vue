@@ -82,9 +82,7 @@
       }
     },
     render() {
-      let jsonContent: string = '';
-      if (this.name != null && this.name != '') {
-        jsonContent = JSON.stringify({
+      let jsonContent: string = JSON.stringify({
           "proKey": this.proKey,
           "name": this.name,
           "dates": this.dates,
@@ -132,7 +130,6 @@
           "language": this.language,
           "richData": this.richData
         });
-      }
       return h('div', {'.:key': 'instance', innerHTML: '<div class="atcb" style="display:none;">' + jsonContent + '</div>'
       });
     },

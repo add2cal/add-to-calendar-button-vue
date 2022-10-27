@@ -1923,8 +1923,7 @@ const Rn = {
     }
   },
   render() {
-    let e = "";
-    return this.name != null && this.name != "" && (e = JSON.stringify({
+    let e = JSON.stringify({
       proKey: this.proKey,
       name: this.name,
       dates: this.dates,
@@ -1971,7 +1970,8 @@ const Rn = {
       lightMode: this.lightMode,
       language: this.language,
       richData: this.richData
-    })), Ce("div", {
+    });
+    return Ce("div", {
       ".:key": "instance",
       innerHTML: '<div class="atcb" style="display:none;">' + e + "</div>"
     });
