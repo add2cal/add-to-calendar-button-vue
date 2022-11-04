@@ -1,7 +1,7 @@
-import { defineAsyncComponent } from 'vue'
+import { defineAsyncComponent } from 'vue';
 
-const AddToCalendarButtonComponentAsync = defineAsyncComponent(() =>
-  import('@/components/AddToCalendarButtonComponent.vue')
+const AddToCalendarButtonComponentAsync = defineAsyncComponent(
+  () => import('@/components/AddToCalendarButtonComponent.vue')
 );
 
-export default AddToCalendarButtonComponentAsync
+export default AddToCalendarButtonComponentAsync;
