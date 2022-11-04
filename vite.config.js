@@ -12,7 +12,7 @@ export default defineConfig({
   },
   build: {
     lib: {
-      entry: resolve(__dirname, 'src/components/AddToCalendarButtonComponent.vue'),
+      entry: resolve(__dirname, 'src/index.ts'),
       name: 'add-to-calendar-button',
       fileName: 'atcb',
     },
