@@ -29,5 +29,6 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     silent: true,
+    watch: false,
   },
 });
