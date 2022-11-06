@@ -1,4 +1,4 @@
-﻿# Visual Studio Code from https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
+# Visual Studio Code from https://github.com/github/gitignore/blob/master/Global/VisualStudioCode.gitignore
 # Adjust to your needs.
 
 .vscode/*
@@ -13,3 +13,5 @@
 
 # node_modules.
 node_modules/
+
+/dist
