@@ -1,17 +1,18 @@
 {
   "name": "add-to-calendar-button-vue",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "engines": {
     "node": ">=14.20.0"
   },
   "description": "Convenient Vue.js wrapper for the add to calendar button snippet, which lets you reliably create beautiful buttons, where people can add events to their calendars.",
   "type": "module",
   "files": [
-    "dist"
+    "dist",
+    "tests"
   ],
   "main": "./dist/atcb.umd.cjs",
   "module": "./dist/atcb.js",
-  "types": "./dist/AddToCalendarButtonComponent.vue.d.ts",
+  "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "import": "./dist/atcb.js",
