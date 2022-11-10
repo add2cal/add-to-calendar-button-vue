@@ -165,7 +165,7 @@ Anyone is welcome to contribute, but mind the [guidelines](.github/CONTRIBUTING.
 - [Feature requests](.github/CONTRIBUTING.md#features)
 - [Pull requests](.github/CONTRIBUTING.md#pull-requests)
 
-**IMPORTANT NOTE:** Run `npm install`, `npm run format`, and `npm run build` before you create any pull request!
+**IMPORTANT NOTE:** Run `npm install` and `npm run format` before you create any pull request!
 
 <br />
 
