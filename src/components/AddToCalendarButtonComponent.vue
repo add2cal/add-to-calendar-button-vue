@@ -59,7 +59,8 @@ export default {
     customCss: String,
     lightMode: String,
     language: String,
-    richData: String
+    richData: String,
+    bypassWebViewCheck: String
   },
   data() {
     return {
@@ -136,7 +137,8 @@ export default {
         "customCss": this.customCss,
         "lightMode": this.lightMode,
         "language": this.language,
-        "richData": this.richData
+        "richData": this.richData,
+        "bypassWebViewCheck": this.bypassWebViewCheck
       });
     return h('div', {'.:key': 'instance', innerHTML: '<div class="atcb" style="display:none;">' + jsonContent + '</div>'
     });
