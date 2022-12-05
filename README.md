@@ -1,8 +1,8 @@
-![Add to Calendar Button Vue Wrapper](https://github.com/add2cal/add-to-calendar-button-vue/blob/main/assets/readme-header.png?raw=true)
+[![Add to Calendar Button Vue Wrapper](https://github.com/add2cal/add-to-calendar-button-vue/blob/main/assets/readme-header.png?raw=true)](https://github.com/add2cal/add-to-calendar-button)
 
-![Version](https://img.shields.io/npm/v/add-to-calendar-button-vue?label=Version&style=for-the-badge)
-![Parent Script Version](https://img.shields.io/badge/Supports%20Parent%20Script%20Version-<=v1.18.8-blue?style=for-the-badge)
-![npm bundle size](https://img.shields.io/bundlephobia/minzip/add-to-calendar-button-vue?style=for-the-badge)
+[![Version](https://img.shields.io/npm/v/add-to-calendar-button-vue?label=Version&style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
+[![Parent Script Version](https://img.shields.io/badge/Supports%20Parent%20Script%20Version-<=v1.18.8-blue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
+[![npm bundle size](https://img.shields.io/bundlephobia/minzip/add-to-calendar-button-vue?style=for-the-badge)](https://github.com/add2cal/add-to-calendar-button)
 
 <br />
 
