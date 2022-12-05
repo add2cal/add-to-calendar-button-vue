@@ -3,15 +3,14 @@
 ![Version](https://img.shields.io/npm/v/add-to-calendar-button-vue?label=Version&style=for-the-badge)
 ![Parent Script Version](https://img.shields.io/badge/Supports%20Parent%20Script%20Version-<=v1.18.8-blue?style=for-the-badge)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/add-to-calendar-button-vue?style=for-the-badge)
-[![npm Installations](https://img.shields.io/npm/dt/add-to-calendar-button-vue?label=npm%20Installations&style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-vue)
 
 <br />
 
-# Depredacted!
+# ⚠️ Deprecated!
 
 ## The Add to Calendar Button - optimized for Vue 3
 
-This is a deprecared wrapper repository for the popular [Add to Calendar Button](https://github.com/add2cal/add-to-calendar-button).
+This is a deprecated wrapper repository for the popular [Add to Calendar Button](https://github.com/add2cal/add-to-calendar-button).
 
 It is no longer supported, since the mentioned parent repository now supports native Vue support out-of-the-box!
 
