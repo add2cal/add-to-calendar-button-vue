@@ -1,7 +1,7 @@
 ![Add to Calendar Button Vue Wrapper](https://github.com/add2cal/add-to-calendar-button-vue/blob/main/assets/readme-header.png?raw=true)
 
 ![Version](https://img.shields.io/npm/v/add-to-calendar-button-vue?label=Version&style=for-the-badge)
-![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v1.18.6-blue?style=for-the-badge)
+![Parent Script Version](https://img.shields.io/badge/Parent%20Script%20Version-v1.18.8-blue?style=for-the-badge)
 [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/add2cal/timezones-ical-library/npm%20publish?style=for-the-badge)](https://github.com/add2cal/timezones-ical-library/actions/workflows/npm-publish.yml)
 ![npm bundle size](https://img.shields.io/bundlephobia/minzip/add-to-calendar-button-vue?style=for-the-badge)
 [![npm Installations](https://img.shields.io/npm/dt/add-to-calendar-button-vue?label=npm%20Installations&style=for-the-badge)](https://www.npmjs.com/package/add-to-calendar-button-vue)

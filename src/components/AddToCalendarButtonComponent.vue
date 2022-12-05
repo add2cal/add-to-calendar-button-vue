@@ -46,6 +46,7 @@ export default {
     trigger: String,
     icons: String,
     textLabels: String,
+    buttonsList: String,
     background: String,
     checkmark: String,
     branding: String,
@@ -55,9 +56,11 @@ export default {
     rsvp: Object,
     inlineRsvp: String,
     customLabels: Object,
+    customCss: String,
     lightMode: String,
     language: String,
-    richData: String
+    richData: String,
+    bypassWebViewCheck: String
   },
   data() {
     return {
@@ -121,6 +124,7 @@ export default {
         "trigger": this.trigger,
         "icons": this.icons,
         "textLabels": this.textLabels,
+        "buttonsList": this.buttonsList,
         "background": this.background,
         "checkmark": this.checkmark,
         "branding": this.branding,
@@ -130,9 +134,11 @@ export default {
         "rsvp": this.rsvp,
         "inlineRsvp": this.inlineRsvp,
         "customLabels": this.customLabels,
+        "customCss": this.customCss,
         "lightMode": this.lightMode,
         "language": this.language,
-        "richData": this.richData
+        "richData": this.richData,
+        "bypassWebViewCheck": this.bypassWebViewCheck
       });
     return h('div', {'.:key': 'instance', innerHTML: '<div class="atcb" style="display:none;">' + jsonContent + '</div>'
     });
