@@ -146,6 +146,8 @@ export default {
   mounted() {
     this.setStyle();
     initializedButtons = atcb_init();
+    console.warn('The Add to Calendar Button Vue Wrapper got deprecated!');
+    console.warn('Please upgrade to the latest version of the official Add to Calendar Button package at https://github.com/add2cal/add-to-calendar-button !');
   },
   beforeUpdate() {
     if (initializedButtons[0] != null && document.getElementById(initializedButtons[0]) != null) {
